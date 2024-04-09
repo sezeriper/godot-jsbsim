@@ -1,0 +1,9 @@
+prefix=/Users/szripr/Projects/godot-jsbsim/demo/bin/jsbsim
+exec_prefix=/Users/szripr/Projects/godot-jsbsim/demo/bin/jsbsim/bin
+libdir=/Users/szripr/Projects/godot-jsbsim/demo/bin/jsbsim/lib
+includedir=/Users/szripr/Projects/godot-jsbsim/demo/bin/jsbsim/include
+Name: JSBSim
+Description: An open source flight dynamics & control software library
+Version: 1.2.1.dev1
+Libs: -L${libdir} -lJSBSim -lm
+Cflags: -I${includedir}/JSBSim
